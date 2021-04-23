@@ -8,7 +8,7 @@ A handly production-ready template for **rapidly** frontend development that you
 
 Make sure that the [Node.js](https://nodejs.org/en/) is installed. Version `12.x` and higher is required.
 
-For easily, install template (_without `git clone` and other things_), install `degit` tool:
+For easily template installation process (_without `git clone` and other things_), please install `degit` tool:
 
 ```bash
 npm install -g degit
