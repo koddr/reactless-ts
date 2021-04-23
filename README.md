@@ -34,7 +34,7 @@ cd ./my-app && npm install && npm run dev
 
 For create a production build, just run `npm run build` command:
 
-```bash
+```console
 vite v2.2.1 building for production...
 
 ✓ 40 modules transformed.
