@@ -2,7 +2,7 @@
 
 A handly production-ready template for **rapidly** frontend development that you've often dreamed of. Included awesome [Preact](https://preactjs.com/) framework with TypeScript, [Tailwind CSS](https://tailwindcss.com/) & [Headless UI](https://headlessui.dev/) visual frameworks, and configured next generation frontend tooling called [Vite](https://vitejs.dev/). 
 
-🔥 Yep, it's **full backward compatibility** with React, but without its overhead! 🔥
+🔥 Yep, it's **full backward compatibility** with all [React.js](https://reactjs.org/) ecosystem, but without its overhead! 🔥
 
 ## ⚡️ Quick Start
 
