@@ -26,6 +26,8 @@ And, finally, go to your app folder, install dependencies and run dev server:
 cd ./my-app && npm install && npm run dev
 ```
 
+![Screenshot](https://user-images.githubusercontent.com/11155743/115931263-8563f380-a493-11eb-8625-dd46969f703c.png)
+
 ## 🏗 Build for production
 
 For create a production build, just run `npm run build` command.
