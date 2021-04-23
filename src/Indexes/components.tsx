@@ -1,3 +1,4 @@
 import { Logo } from '__/Components/logo';
+import { BottomMenu } from '__/Components/bottom_menu';
 
-export { Logo };
+export { Logo, BottomMenu };

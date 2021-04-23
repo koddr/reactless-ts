@@ -1,6 +1,6 @@
 import { render } from 'preact';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { NoMatch, Hello } from '__/Indexes/views';
+import { NoMatch, Welcome, Greetings } from '__/Indexes/views';
 import '__/style.css';
 
 const App = () => {
@@ -8,9 +8,11 @@ const App = () => {
     <>
       <Router>
         <Switch>
-          <Route exact path="/"></Route>
-          <Route path="/hello">
-            <Hello />
+          <Route exact path="/">
+            <Welcome />
+          </Route>
+          <Route path="/hi/:name">
+            <Greetings />
           </Route>
           <Route path="*">
             <NoMatch />

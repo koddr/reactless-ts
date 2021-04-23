@@ -1,4 +1,5 @@
 import { NoMatch } from '__/Views/no_match';
-import { Hello } from '__/Views/hello';
+import { Welcome } from '__/Views/welcome';
+import { Greetings } from '__/Views/greetings';
 
-export { NoMatch, Hello };
+export { NoMatch, Welcome, Greetings };
