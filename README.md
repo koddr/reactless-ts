@@ -34,6 +34,10 @@ cd ./my-app && npm install && npm run dev
 
 For create a production build, just run `npm run build` command.
 
+## 🤔 Why such a strange name? 
+
+This template was created in pursuit of **reducing size** of the bundle, but with a great desire to make backward compatibility with React. Therefore, the name denotes the direction of the author's movement to **reduce the presence of React.js** in the template. Less React, less bundle size! That's it.
+
 ## ⚠️ License
 
 MIT &copy; [Vic Shóstak](https://shostak.dev/) & [True web artisans](https://1wa.co/).
