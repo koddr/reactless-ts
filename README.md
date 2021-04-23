@@ -1,6 +1,6 @@
 # ✨ Reactless.ts
 
-A handly production-ready template for **rapidly** frontend development. Included awesome [Preact.js](https://preactjs.com/) TypeScript framework, [Tailwind CSS](https://tailwindcss.com/) & [Headless UI](https://headlessui.dev/) visual frameworks, and configured next generation frontend tooling called [Vite](https://vitejs.dev/). 
+A handly production-ready template for **rapidly** frontend development that you've often dreamed of. Included awesome [Preact.js](https://preactjs.com/) TypeScript framework, [Tailwind CSS](https://tailwindcss.com/) & [Headless UI](https://headlessui.dev/) visual frameworks, and configured next generation frontend tooling called [Vite](https://vitejs.dev/). 
 
 🔥 Yep, it's **full backward compatibility** with React, but without its overhead! 🔥
 
