@@ -32,7 +32,19 @@ cd ./my-app && npm install && npm run dev
 
 ## 🏗 Build for production
 
-For create a production build, just run `npm run build` command.
+For create a production build, just run `npm run build` command:
+
+```bash
+vite v2.2.1 building for production...
+
+✓ 40 modules transformed.
+
+dist/assets/favicon.17e50649.svg   1.49kb
+dist/index.html                    0.58kb
+dist/assets/index.ec454dbd.js      4.38kb / brotli: 1.82kb
+dist/assets/index.fa54e5c4.css     13.85kb / brotli: 3.02kb
+dist/assets/vendor.a88e8b8c.js     38.04kb / brotli: 12.46kb
+```
 
 ## 🤔 Why such a strange name? 
 
