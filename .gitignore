@@ -1,0 +1,10 @@
+# macOS files
+**/.DS_Store
+
+# Other files
+*.local
+
+# Paths & folders
+**/node_modules
+**/dist
+**/dist-ssr
