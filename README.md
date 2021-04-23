@@ -1,6 +1,8 @@
 # ✨ Reactless.ts
 
-A production-ready template for **rapidly** frontend development. Included [Preact.js](https://preactjs.com/) TypeScript, [Tailwind CSS](https://tailwindcss.com/) & [Headless UI](https://headlessui.dev/), next generation frontend tooling called [Vite](https://vitejs.dev/). Yep, it's **full backward compatibility** with React, but without React overhead!
+A production-ready template for **rapidly** frontend development. Included [Preact.js](https://preactjs.com/) TypeScript, [Tailwind CSS](https://tailwindcss.com/) & [Headless UI](https://headlessui.dev/), next generation frontend tooling called [Vite](https://vitejs.dev/). 
+
+Yep, it's **full backward compatibility** with React, but without React overhead!
 
 ## ⚡️ Quick Start
 
@@ -24,7 +26,7 @@ And, finally, install dependencies and run dev server:
 npm install && npm run dev
 ```
 
-## Build for production
+## 🏗 Build for production
 
 For create a production build, just run `npm run build` command.
 
