@@ -1,8 +1,8 @@
 # ✨ Reactless.ts
 
-A handy production-ready template for **rapidly** frontend development that you've often dreamed of. 
+A handy production-ready template for **rapidly** frontend development that you've often dreamed of.
 
-Included awesome [Preact](https://preactjs.com/) framework with TypeScript, [Tailwind CSS](https://tailwindcss.com/) & [Headless UI](https://headlessui.dev/) visual frameworks, and configured next generation frontend tooling called [Vite](https://vitejs.dev/). 
+Included awesome [Preact](https://preactjs.com/) framework with TypeScript, [Tailwind CSS](https://tailwindcss.com/) & [Headless UI](https://headlessui.dev/) visual frameworks, and configured next generation frontend tooling called [Vite](https://vitejs.dev/).
 
 🔥 Yep, with **full backward compatibility** to all of [React.js](https://reactjs.org/) ecosystem, but without its overhead! 🔥
 
@@ -46,7 +46,7 @@ dist/assets/index.fa54e5c4.css     13.85kb / brotli: 3.02kb
 dist/assets/vendor.a88e8b8c.js     38.04kb / brotli: 12.46kb
 ```
 
-## 🤔 Why such a strange name? 
+## 🤔 Why such a strange name?
 
 This template was created in pursuit of **reducing size** of the bundle, but with a great desire to make backward compatibility with React. Therefore, the name denotes the direction of the author's movement to **reduce the presence of React.js** in the template. Less React, less bundle size! That's it.
 
