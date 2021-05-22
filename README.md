@@ -35,9 +35,9 @@ cd ./my-app && npm install && npm run dev
 For create a production build, just run `npm run build` command:
 
 ```console
-vite v2.x.x building for production...
+vite v2.X.X building for production...
 
-✓ 43 modules transformed.
+✓ X modules transformed.
 
 dist/index.html               0.64kb
 dist/assets/favicon.XXX.svg   1.49kb
@@ -77,7 +77,7 @@ Upgrading /user/folder/project/package.json
 
 # 3. npm install
 
-added 1 package, removed 1 package, changed 7 packages, and audited 230 packages in 6s
+added X package, removed X package, changed X packages, and audited XXX packages in 6s
 ```
 
 ## 🤔 Why such a strange name?

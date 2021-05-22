@@ -28,7 +28,6 @@
 		"tailwindcss": "^2.1.2",
 		"typescript": "^4.2.4",
 		"vite": "^2.3.3",
-		"vite-plugin-compress": "^2.1.0",
 		"vite-plugin-fonts": "^0.2.2",
 		"vite-plugin-html": "^2.0.7"
 	}
