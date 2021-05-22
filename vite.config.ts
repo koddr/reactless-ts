@@ -1,6 +1,8 @@
 import { resolve } from 'path';
 import { defineConfig } from 'vite';
 import { minifyHtml } from 'vite-plugin-html';
+import ViteFonts from 'vite-plugin-fonts';
+import compress from 'vite-plugin-compress';
 import prefresh from '@prefresh/vite';
 
 export default defineConfig({
@@ -16,5 +18,19 @@ export default defineConfig({
     jsxFragment: 'Fragment',
     jsxInject: `import { h, Fragment } from 'preact'`,
   },
-  plugins: [prefresh(), minifyHtml()],
+  plugins: [
+    compress(),
+    prefresh(),
+    minifyHtml(),
+    ViteFonts({
+      google: {
+        families: [
+          {
+            name: 'Inter',
+            styles: 'wght@400;600;800',
+          },
+        ],
+      },
+    }),
+  ],
 });

@@ -35,15 +35,49 @@ cd ./my-app && npm install && npm run dev
 For create a production build, just run `npm run build` command:
 
 ```console
-vite v2.2.1 building for production...
+vite v2.x.x building for production...
 
-✓ 40 modules transformed.
+✓ 43 modules transformed.
 
-dist/assets/favicon.17e50649.svg   1.49kb
-dist/index.html                    0.58kb
-dist/assets/index.ec454dbd.js      4.38kb  / brotli: 1.82kb
-dist/assets/index.fa54e5c4.css     13.85kb / brotli: 3.02kb
-dist/assets/vendor.a88e8b8c.js     38.04kb / brotli: 12.46kb
+dist/index.html               0.64kb
+dist/assets/favicon.XXX.svg   1.49kb
+dist/assets/index.XXX.js      3.77kb / brotli: 1.55kb
+dist/assets/index.XXX.css     13.85kb / brotli: 3.02kb
+dist/assets/vendor.XXX.js     37.88kb / brotli: 12.34kb
+```
+
+## 🔄 Easy update for all dependencies
+
+For update (and upgrade) all dependencies, just run `npm run update` command. This will do three things at once: check outdated packages, upgrade them, and then install new versions of those packages:
+
+```console
+# 1. npm outdated
+
+Package       Current  Wanted  Latest  Location                   Depended by
+@types/node    15.0.3  15.6.0  15.6.0  node_modules/@types/node   project
+@types/react   17.0.5  17.0.6  17.0.6  node_modules/@types/react  project
+postcss        8.2.15   8.3.0   8.3.0  node_modules/postcss       project
+vite            2.3.2   2.3.3   2.3.3  node_modules/vite          project
+
+# 2. npx npm-check-updates -u
+
+Need to install the following packages:
+  npm-check-updates
+
+Ok to proceed? (y) ___ # <-- type 'Y' to continue process
+
+Upgrading /user/folder/project/package.json
+
+[====================] 19/19 100%
+
+ @types/node   ^15.0.3  →  ^15.6.0
+ @types/react  ^17.0.5  →  ^17.0.6
+ postcss       ^8.2.15  →   ^8.3.0
+ vite           ^2.3.2  →   ^2.3.3
+
+# 3. npm install
+
+added 1 package, removed 1 package, changed 7 packages, and audited 230 packages in 6s
 ```
 
 ## 🤔 Why such a strange name?
